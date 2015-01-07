@@ -17,13 +17,32 @@ html {
 	box-sizing: inherit;
 }
 
-
-ul{
-	text-decoration: none;
-	list-style-type: none;
-	display: block;
+body{
+	font-family: sans-serif;
 }
 
-.button{
+h1{
+	text-align: center;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+	padding:0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	max-width: 300px;
+}
+
+li{
+	display:block;
 	padding:0.75em;
+	margin:0.75em;
+	background-color: #84BF04;
+	text-align: center;
+	font-size: 16pt;
 }
