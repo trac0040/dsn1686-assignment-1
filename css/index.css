@@ -16,3 +16,13 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.button{
+	padding:0.75em;
+}
